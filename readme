@@ -1,0 +1,2 @@
+create mount: docker build -t pytest_runner .
+run container: docker run --rm --mount type=bind,src=C:\Users\andrei\PycharmProjects\test_api,target=/test_api/ pytest_runner
